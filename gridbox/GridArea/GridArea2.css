@@ -1,0 +1,123 @@
+.sec{
+    background-color: rgb(43, 38, 38);
+    display: grid;
+    grid-template-rows: 50px 50px 1fr 50px;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+    height: 500px;
+    width: 800px;
+    grid-template-areas: "a a"
+                         "b c "
+                        " empty c"
+                         "d d";
+    margin: 50px auto;
+                    
+                                            
+}
+/* .sec>div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} */
+
+.ccd1{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    
+}
+#d33{
+    
+}
+
+#d1{
+   
+    background-image: linear-gradient(to right, rgba(49, 70, 255, 0.76) , rgb(236, 43, 156));
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+#d2{
+    grid-area: b;
+    background-image: linear-gradient(to right, rgba(49, 70, 255, 0.76) , rgb(236, 43, 156));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container1{
+    background-image: linear-gradient(to right, rgba(49, 70, 255, 0.76) , rgb(236, 43, 156));
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(5,auto);
+    gap: 10px;
+    grid-area: c;
+    grid-template-areas: "t t t t"
+                         "one one two three"
+                         "four eight two seven"
+                          " five five nine seven"
+                          "six six six seven";
+
+}
+
+
+#d4{
+    grid-area: d;
+    background-image: linear-gradient(to right, rgba(49, 70, 255, 0.76) , rgb(236, 43, 156));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.ccd1{
+    background-color: rgb(164, 188, 209);
+}
+
+#cd1{
+    grid-area: one;
+}
+
+#cd2{
+    grid-area: two;
+}
+
+#cd3{
+    grid-area: three;
+    
+}
+
+#cd4{
+    grid-area: four;
+}
+
+#cd5{
+    grid-area: five;
+}
+
+#cd6{
+    grid-area: six;
+}
+
+#cd7{
+    grid-area: seven;
+    display: grid;
+    gap: 10px;
+}
+
+#cd8{
+    grid-area: eight;
+}
+
+#cd9{
+    grid-area: nine;
+}
+#d33{
+    grid-area: t;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}

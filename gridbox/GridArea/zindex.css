@@ -1,0 +1,181 @@
+
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+/* .red{
+    color: red;
+}
+.toptext{
+    width: 19%;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+
+}
+.photo1{
+    
+    position: relative;
+    top: 223px;
+    border: 1px solid black;
+    
+
+}
+.img{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    
+}
+
+.a{
+    z-index:3 ;
+
+}
+.b{
+    z-index: 2;
+    position: absolute;
+    bottom: -53px;
+    left: 128px;
+}
+
+.c{
+    z-index: 1; 
+    bottom: -7px;
+    right: -183px;
+}
+
+/* position: relative;
+top: 373px;
+width: 196px; */ 
+
+
+.sec1{
+    width: 80%;
+    height: 100%;
+    
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+}
+
+.red{
+    color: red;
+}
+
+.left{
+    border: 1px solid red;
+    width: 21%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 14%;
+    
+}
+
+.right{
+    border: 1px solid blue;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+
+}
+
+.right .img1{
+    z-index: 3;
+    top: 235px;
+
+}
+
+.right .img2{
+    z-index: 2;
+    left: 390px
+}
+
+
+.right .img3{
+    z-index: 1;
+    
+    bottom: 184px;
+    right: 283px;
+}
+
+.right img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    position: absolute ;
+   
+}
+
+.sec2{
+    
+        width: 80%;
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        position: relative;
+        /* justify-content: center; */
+    
+}
+
+.midleft{
+    border: 1px solid blue;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    overflow: hidden;
+    /* object-fit: contain; */
+
+}
+.midright{
+    border: 1px solid red;
+    width: 21%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 14%;
+
+}
+
+.midleft img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    position: absolute ;
+}
+
+
+
+.midleft .img11{
+    z-index: 3;
+    top: 235px;
+
+}
+
+.midleft .img22{
+    z-index: 2;
+    left: 390px
+}
+
+
+.midleft .img33{
+    z-index: 1;
+    
+    bottom: 184px;
+    right: 283px;
+}

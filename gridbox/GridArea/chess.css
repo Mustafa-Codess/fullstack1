@@ -1,0 +1,19 @@
+.container{
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(8,auto);
+    border: 2px solid black;
+    /* gap: 10px; */
+    margin: 50px auto;
+
+}
+
+.box{
+    background-color: black;
+}
+
+/* .box1{
+    background-color: white;
+} */
